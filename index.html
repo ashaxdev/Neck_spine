@@ -4,850 +4,803 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Neck & Spine Clinic | Dr. Anish | Kudamaloor, Kottayam</title>
-  <meta name="description" content="Neck & Spine Clinic by Dr. Anish (B.N.Y.S., MSc Psy.) at School Junction, Kudamaloor, Kottayam. Expert treatment in Panchakarma, Physiotherapy, Chiropractic Care, Acupuncture, Cupping Therapy, Yoga & more. Call 9500 538 543." />
-  <meta name="keywords" content="neck spine clinic kottayam, dr anish kudamaloor, panchakarma kottayam, physiotherapy kottayam, chiropractic care kottayam, acupuncture kottayam, cupping therapy kottayam, foot reflexology kottayam, ayurveda kottayam, yoga therapy kottayam" />
-  <meta name="robots" content="index, follow" />
-  <link rel="canonical" href="https://neckandspineclinic.in/" />
-  <meta property="og:title" content="Neck & Spine Clinic | Dr. Anish | Kudamaloor, Kottayam" />
-  <meta property="og:description" content="Holistic healing through Panchakarma, Physiotherapy, Acupuncture, Cupping Therapy & Yoga. Book your appointment today!" />
-  <meta property="og:type" content="website" />
-  <meta property="og:locale" content="en_IN" />
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "MedicalClinic",
-    "name": "Neck & Spine Clinic",
-    "description": "Holistic healing clinic offering Panchakarma, Physiotherapy, Chiropractic Care, Acupuncture, Cupping Therapy, Foot Reflexology, Massage Therapy and Yoga.",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "School Junction, Kudamaloor",
-      "addressLocality": "Kottayam",
-      "addressRegion": "Kerala",
-      "addressCountry": "IN"
-    },
-    "telephone": "+919500538543",
-    "email": "neckandspineclinic@gmail.com",
-    "medicalSpecialty": ["Naturopathic", "PhysicalTherapy", "Ayurveda"],
-    "openingHours": "Mo-Sa 08:00-20:00",
-    "priceRange": "₹₹"
-  }
-  </script>
+  <meta name="description" content="Neck & Spine Clinic by Dr. Anish (B.N.Y.S., MSc Psy.) at School Junction, Kudamaloor, Kottayam. FREE Consultation. No drugs, no side effects." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
   <style>
     :root {
-      /* Logo-matched palette — deep forest greens */
-      --g900: #0d2818;
-      --g800: #163d26;
-      --g700: #1e5234;
-      --g600: #276942;
-      --g500: #2e8050;
-      --g400: #3a9e62;
-      --g300: #5dba82;
-      --g200: #93d4ab;
-      --g100: #caecd8;
-      --g50:  #edf7f2;
-
+      --green-900: #2c6443;
+      --green-800: #163d26;
+      --green-700: #1e5234;
+      --green-600: #276942;
+      --green-500: #2e8050;
+      --green-400: #3a9e62;
+      --green-300: #5dba82;
+      --green-200: #93d4ab;
+      --green-100: #caecd8;
+      --green-50:  #edf7f2;
       --white: #ffffff;
-      --off-white: #f7faf8;
-      --light-bg: #f0f6f2;
-
-      --text-primary: #0d2818;
-      --text-secondary: #3d5c48;
-      --text-muted: #7a9e88;
-
+      --warm-white: #fafcfb;
+      --text-dark: #0d2818;
+      --text-mid: #3d5c48;
+      --text-light: #7a9e88;
       --gold: #b8935a;
       --gold-light: #d4b483;
-      --gold-pale: #f5eed8;
-
       --wa: #25D366;
       --wa-dark: #1ead52;
-
-      --border: rgba(30, 82, 52, 0.12);
-      --border-mid: rgba(30, 82, 52, 0.22);
+      --red: #e53935;
+      --border: rgba(30,82,52,0.12);
     }
-
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
     body {
-      font-family: 'Inter', sans-serif;
+      font-family: 'DM Sans', sans-serif;
       background: var(--white);
-      color: var(--text-primary);
+      color: var(--text-dark);
       overflow-x: hidden;
       line-height: 1.6;
     }
 
-    /* ─── NAV ─── */
-    nav {
-      position: fixed; top: 0; left: 0; right: 0; z-index: 999;
-      background: var(--g900);
-      display: flex; align-items: center; justify-content: space-between;
-      padding: 0 6%;
-      height: 68px;
-      border-bottom: 1px solid rgba(255,255,255,0.06);
+    /* ── TOP BANNER ── */
+    .top-banner {
+      background: var(--green-700);
+      color: white;
+      text-align: center;
+      padding: 8px 16px;
+      font-size: 0.76rem;
+      font-weight: 600;
+      letter-spacing: 0.8px;
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 1001;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      flex-wrap: wrap;
     }
-    .nav-logo { display: flex; align-items: center; gap: 12px; text-decoration: none; }
-    .nav-logo img { height: 42px; width: 42px; border-radius: 50%; object-fit: cover; border: 2px solid var(--g400); }
-    .nav-brand { display: flex; flex-direction: column; }
-    .nav-brand-main { font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; font-weight: 700; color: var(--white); letter-spacing: 0.5px; line-height: 1; }
-    .nav-brand-sub { font-size: 0.62rem; color: var(--g200); letter-spacing: 2.5px; text-transform: uppercase; margin-top: 3px; }
-    .nav-divider { width: 1px; height: 28px; background: rgba(255,255,255,0.1); margin: 0 8px; }
-    .nav-tagline { font-size: 0.62rem; color: var(--g300); letter-spacing: 1.5px; text-transform: uppercase; display: none; }
-    .nav-links { display: flex; gap: 32px; align-items: center; }
-    .nav-links a { color: rgba(255,255,255,0.72); text-decoration: none; font-size: 0.82rem; font-weight: 500; letter-spacing: 0.3px; transition: color 0.2s; position: relative; }
-    .nav-links a::after { content: ''; position: absolute; bottom: -4px; left: 0; right: 0; height: 1px; background: var(--g300); transform: scaleX(0); transition: transform 0.2s; }
-    .nav-links a:hover { color: var(--white); }
-    .nav-links a:hover::after { transform: scaleX(1); }
+    .top-banner .badge {
+      background: #fff;
+      color: var(--green-700);
+      padding: 2px 10px;
+      border-radius: 20px;
+      font-size: 0.68rem;
+      font-weight: 700;
+      letter-spacing: 1.2px;
+    }
+    .top-banner a { color: #fff; font-weight: 700; text-decoration: none; }
+    @media (max-width: 600px) {
+      .top-banner { gap: 6px; font-size: 0.7rem; padding: 7px 10px; }
+      .top-banner .sep { display: none; }
+    }
+
+    /* ── NAV ── */
+    nav {
+      position: fixed; top: 34px; left: 0; right: 0; z-index: 1000;
+      background: rgba(255,255,255,0.97);
+      backdrop-filter: blur(12px);
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0 5%;
+      height: 64px;
+      border-bottom: 1px solid var(--border);
+      box-shadow: 0 2px 20px rgba(13,40,24,0.06);
+    }
+    .nav-logo { display: flex; align-items: center; gap: 11px; text-decoration: none; }
+    .nav-logo img { height: 40px; width: 40px; border-radius: 50%; object-fit: cover; border: 2px solid var(--green-300); }
+    .nav-brand-main { font-family: 'Playfair Display', serif; font-size: 1.1rem; font-weight: 700; color: var(--green-900); line-height: 1.1; }
+    .nav-brand-sub { font-size: 0.58rem; color: var(--text-light); letter-spacing: 2px; text-transform: uppercase; margin-top: 2px; }
+    .nav-links { display: flex; gap: 28px; align-items: center; }
+    .nav-links a { color: var(--text-mid); text-decoration: none; font-size: 0.83rem; font-weight: 500; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--green-700); }
     .nav-cta {
-      background: var(--wa);
-      color: white; border: none;
-      padding: 8px 18px; border-radius: 6px;
-      font-size: 0.8rem; font-weight: 600;
+      background: var(--wa); color: white; border: none;
+      padding: 8px 16px; border-radius: 6px;
+      font-size: 0.78rem; font-weight: 600;
       cursor: pointer; text-decoration: none;
-      display: flex; align-items: center; gap: 6px;
+      display: inline-flex; align-items: center; gap: 6px;
       transition: background 0.2s;
     }
     .nav-cta:hover { background: var(--wa-dark); }
-    .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 4px; }
-    .hamburger span { width: 22px; height: 1.5px; background: white; border-radius: 2px; }
+    .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 4px; background: none; border: none; }
+    .hamburger span { width: 22px; height: 1.5px; background: var(--green-800); border-radius: 2px; display: block; }
 
-    /* ─── MOBILE MENU ─── */
+    /* ── MOBILE MENU ── */
     .mobile-menu {
       display: none;
-      position: fixed; top: 68px; left: 0; right: 0;
-      background: var(--g900);
-      padding: 16px 6% 20px;
-      z-index: 998;
-      border-bottom: 1px solid rgba(255,255,255,0.06);
+      position: fixed; top: 98px; left: 0; right: 0;
+      background: white;
+      padding: 12px 5% 18px;
+      z-index: 999;
+      border-bottom: 1px solid var(--border);
+      box-shadow: 0 6px 24px rgba(13,40,24,0.08);
     }
     .mobile-menu.open { display: block; }
-    .mobile-menu a { display: block; color: rgba(255,255,255,0.8); text-decoration: none; padding: 11px 0; border-bottom: 1px solid rgba(255,255,255,0.06); font-size: 0.92rem; }
+    .mobile-menu a { display: block; color: var(--text-dark); text-decoration: none; padding: 11px 0; border-bottom: 1px solid var(--border); font-size: 0.92rem; }
     .mobile-menu a:last-child { border-bottom: none; }
 
-    /* ─── HERO ─── */
+    /* ── HERO ── */
     .hero {
       min-height: 100vh;
-      background: var(--g900);
-      display: flex; align-items: center;
-      padding: 100px 6% 70px;
-      position: relative; overflow: hidden;
-    }
-
-    /* Hexagon motif from logo */
-    .hero-hex {
-      position: absolute; right: -40px; top: 50%; transform: translateY(-50%);
-      width: 580px; height: 580px; opacity: 0.04;
-    }
-    .hero-hex-2 {
-      position: absolute; right: 80px; top: 50%; transform: translateY(-50%);
-      width: 380px; height: 380px; opacity: 0.06;
-    }
-
-    /* Vertical spine accent */
-    .hero-spine-line {
-      position: absolute; left: 5%; top: 0; bottom: 0;
-      width: 1px; background: linear-gradient(to bottom, transparent, var(--g400) 30%, var(--g400) 70%, transparent);
-      opacity: 0.25;
-    }
-
-    .hero-content { position: relative; z-index: 2; max-width: 620px; }
-
-    .hero-eyebrow {
-      display: flex; align-items: center; gap: 10px; margin-bottom: 28px;
-    }
-    .hero-eyebrow-line { width: 32px; height: 1px; background: var(--g400); }
-    .hero-eyebrow-text { font-size: 0.7rem; color: var(--g300); letter-spacing: 3px; text-transform: uppercase; font-weight: 500; }
-
-    .hero h1 {
-      font-family: 'Cormorant Garamond', serif;
-      font-size: clamp(2.8rem, 6vw, 4.8rem);
-      font-weight: 700;
-      color: var(--white);
-      line-height: 1.05;
-      margin-bottom: 8px;
-    }
-    .hero h1 .accent { color: var(--g300); font-style: italic; }
-    .hero h1 .word-spine {
-      display: inline-block;
+      background: var(--green-900);
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      padding: 130px 5% 70px;
+      gap: 40px;
       position: relative;
+      overflow: hidden;
     }
-    .hero h1 .word-spine::after {
+    .hero::before {
       content: '';
-      position: absolute; bottom: -2px; left: 0; right: 0; height: 1px;
-      background: var(--g400);
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse at 80% 50%, rgba(58,158,98,0.12) 0%, transparent 60%);
+      pointer-events: none;
     }
-
-    .hero-tagline {
-      font-family: 'Cormorant Garamond', serif;
-      font-size: 1rem;
-      color: var(--gold-light);
-      letter-spacing: 2px;
-      text-transform: uppercase;
-      margin-bottom: 24px;
-      font-style: italic;
+    .hero-content { position: relative; z-index: 2; }
+    .free-pill {
+      display: inline-flex; align-items: center; gap: 7px;
+      background: rgba(229,57,53,0.15);
+      border: 1px solid rgba(229,57,53,0.35);
+      border-radius: 30px;
+      padding: 5px 14px 5px 8px;
+      margin-bottom: 22px;
     }
-
-    .hero-desc { font-size: 0.95rem; color: rgba(255,255,255,0.58); line-height: 1.8; margin-bottom: 10px; max-width: 480px; }
-
-    .hero-dr { font-size: 0.82rem; color: var(--g200); margin-bottom: 36px; }
-    .hero-dr strong { color: var(--white); font-weight: 500; }
-
-    .hero-actions { display: flex; gap: 12px; flex-wrap: wrap; }
-
+    .free-pill-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--red); animation: pulse 2s infinite; }
+    @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.35} }
+    .free-pill-text { font-size: 0.7rem; color: #ff6b6b; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; }
+    .hero-eyebrow { font-size: 0.68rem; color: var(--green-300); letter-spacing: 3px; text-transform: uppercase; font-weight: 500; margin-bottom: 14px; }
+    .hero h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(2.4rem, 5vw, 4.2rem);
+      font-weight: 700; color: white;
+      line-height: 1.08; margin-bottom: 12px;
+    }
+    .hero h1 .accent { color: var(--green-300); font-style: italic; }
+    .hero-sub { font-size: 0.85rem; color: rgba(255,255,255,0.55); margin-bottom: 8px; line-height: 1.8; max-width: 440px; }
+    .hero-dr { font-size: 0.78rem; color: var(--green-200); margin-bottom: 28px; }
+    .hero-dr strong { color: white; font-weight: 500; }
+    .hero-trust { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 28px; }
+    .trust-badge {
+      display: flex; align-items: center; gap: 5px;
+      background: rgba(255,255,255,0.07);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 6px; padding: 5px 10px;
+      font-size: 0.7rem; color: rgba(255,255,255,0.75); font-weight: 500;
+    }
+    .trust-badge.red { background: rgba(229,57,53,0.15); border-color: rgba(229,57,53,0.3); color: #ff8a80; }
+    .hero-btns { display: flex; gap: 10px; flex-wrap: wrap; }
     .btn-wa {
       display: inline-flex; align-items: center; gap: 8px;
       background: var(--wa); color: white; text-decoration: none;
-      padding: 13px 24px; border-radius: 6px;
-      font-weight: 600; font-size: 0.88rem;
+      padding: 13px 22px; border-radius: 7px;
+      font-weight: 600; font-size: 0.86rem;
       transition: background 0.2s;
     }
     .btn-wa:hover { background: var(--wa-dark); }
-
-    .btn-outline {
+    .btn-call {
       display: inline-flex; align-items: center; gap: 8px;
-      background: transparent; color: rgba(255,255,255,0.75); text-decoration: none;
-      padding: 13px 24px; border-radius: 6px;
-      font-weight: 500; font-size: 0.88rem;
-      border: 1px solid rgba(255,255,255,0.18);
+      background: transparent; color: rgba(255,255,255,0.78); text-decoration: none;
+      padding: 13px 22px; border-radius: 7px;
+      font-weight: 500; font-size: 0.86rem;
+      border: 1px solid rgba(255,255,255,0.2);
       transition: all 0.2s;
     }
-    .btn-outline:hover { border-color: rgba(255,255,255,0.4); color: white; }
-
+    .btn-call:hover { border-color: rgba(255,255,255,0.45); color: white; }
     .hero-stats {
-      display: flex; gap: 40px; margin-top: 56px;
-      padding-top: 32px;
-      border-top: 1px solid rgba(255,255,255,0.08);
+      display: flex; gap: 32px; margin-top: 44px;
+      padding-top: 28px; border-top: 1px solid rgba(255,255,255,0.08);
+      flex-wrap: wrap;
     }
-    .stat-num {
-      font-family: 'Cormorant Garamond', serif;
-      font-size: 2.2rem; font-weight: 700;
-      color: var(--g300); line-height: 1;
-    }
-    .stat-label { font-size: 0.7rem; color: rgba(255,255,255,0.42); letter-spacing: 1.5px; text-transform: uppercase; margin-top: 4px; }
+    .stat-num { font-family: 'Playfair Display', serif; font-size: 2rem; font-weight: 700; color: var(--green-300); line-height: 1; }
+    .stat-label { font-size: 0.65rem; color: rgba(255,255,255,0.38); letter-spacing: 1.5px; text-transform: uppercase; margin-top: 3px; }
 
-    /* Hexagon logo display on right */
-    .hero-visual {
-      position: absolute; right: 6%; top: 50%; transform: translateY(-50%);
-      z-index: 2;
-      display: flex; align-items: center; justify-content: center;
+    /* Hero image mosaic */
+    .hero-visual { position: relative; z-index: 2; display: grid; grid-template-rows: 1fr 1fr; grid-template-columns: 1fr 1fr; gap: 10px; height: 480px; }
+    .hero-img-main { grid-row: 1 / 3; grid-column: 1; border-radius: 16px; overflow: hidden; }
+    .hero-img-main img, .hero-img-sm img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .hero-img-sm { border-radius: 12px; overflow: hidden; }
+    .hero-img-sm:first-of-type { grid-row: 1; grid-column: 2; }
+    .hero-img-sm:last-child { grid-row: 2; grid-column: 2; }
+    .hero-badge-float {
+      position: absolute; bottom: -16px; left: 50%; transform: translateX(-50%);
+      background: white; border-radius: 10px;
+      padding: 10px 18px;
+      display: flex; align-items: center; gap: 10px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+      white-space: nowrap;
     }
-    .hero-logo-hex {
-      width: 300px; height: 346px;
-      position: relative;
-    }
-    .hero-logo-hex svg { width: 100%; height: 100%; }
+    .hero-badge-float .hbf-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--wa); flex-shrink: 0; animation: pulse 2s infinite; }
+    .hero-badge-float span { font-size: 0.78rem; font-weight: 600; color: var(--green-800); }
 
-    /* ─── SECTION BASE ─── */
-    section { padding: 88px 6%; }
-    .s-label {
-      display: flex; align-items: center; gap: 10px; margin-bottom: 14px;
-    }
-    .s-label-line { width: 24px; height: 1px; background: var(--g500); }
-    .s-label-text { font-size: 0.68rem; color: var(--g600); letter-spacing: 3px; text-transform: uppercase; font-weight: 600; }
-
-    .s-title {
-      font-family: 'Cormorant Garamond', serif;
-      font-size: clamp(1.9rem, 4vw, 3rem);
-      font-weight: 700; color: var(--text-primary);
-      line-height: 1.15;
-    }
-    .s-title em { color: var(--g600); font-style: italic; }
-
-    .s-desc { font-size: 0.9rem; color: var(--text-secondary); line-height: 1.8; margin-top: 12px; }
-
+    /* ── SECTION BASE ── */
+    section { padding: 80px 5%; }
+    .sec-label { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; }
+    .sec-label-line { width: 24px; height: 1.5px; background: var(--green-500); flex-shrink: 0; }
+    .sec-label-text { font-size: 0.65rem; color: var(--green-600); letter-spacing: 3px; text-transform: uppercase; font-weight: 600; }
+    .sec-title { font-family: 'Playfair Display', serif; font-size: clamp(1.7rem, 3.5vw, 2.6rem); font-weight: 700; color: var(--text-dark); line-height: 1.18; }
+    .sec-title em { color: var(--green-600); font-style: italic; }
+    .sec-title.light { color: white; }
+    .sec-title.light em { color: var(--green-300); }
+    .sec-desc { font-size: 0.87rem; color: var(--text-mid); line-height: 1.8; margin-top: 10px; }
+    .sec-desc.light { color: rgba(255,255,255,0.52); }
     .center { text-align: center; }
-    .center .s-label { justify-content: center; }
-    .center .s-desc { max-width: 540px; margin-left: auto; margin-right: auto; }
+    .center .sec-label { justify-content: center; }
+    .center .sec-desc { max-width: 520px; margin-left: auto; margin-right: auto; }
 
-    /* ─── SERVICES ─── */
-    .services-section { background: var(--off-white); }
+    /* ── TRUST STRIP ── */
+    .trust-strip {
+      background: var(--green-50);
+      border-top: 1px solid var(--green-100);
+      border-bottom: 1px solid var(--green-100);
+      padding: 20px 5%;
+      display: flex; align-items: center; justify-content: center;
+      gap: 0; flex-wrap: wrap;
+    }
+    .ts-item {
+      display: flex; align-items: center; gap: 8px;
+      padding: 8px 24px;
+      border-right: 1px solid var(--green-100);
+      font-size: 0.78rem; color: var(--green-700); font-weight: 600;
+    }
+    .ts-item:last-child { border-right: none; }
+    .ts-item .ts-icon { font-size: 1.1rem; }
 
+    /* ── ABOUT / INTRO ── */
+    .about-section { background: white; }
+    .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; }
+    .about-imgs { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    .about-img { border-radius: 12px; overflow: hidden; }
+    .about-img img { width: 100%; height: 200px; object-fit: cover; display: block; }
+    .about-img.tall { grid-row: 1 / 3; }
+    .about-img.tall img { height: 100%; min-height: 420px; }
+    .about-text .sec-desc { margin-bottom: 20px; }
+    .pillars { display: flex; flex-direction: column; gap: 0; border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+    .pillar { display: flex; align-items: center; gap: 12px; padding: 13px 16px; border-bottom: 1px solid var(--border); }
+    .pillar:last-child { border-bottom: none; }
+    .pillar-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--green-400); flex-shrink: 0; }
+    .pillar span { font-size: 0.82rem; color: var(--text-mid); }
+
+    /* ── CONDITIONS ── */
+    .conditions-section { background: var(--green-900); }
+    .conditions-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(165px, 1fr));
+      gap: 10px; margin-top: 40px;
+    }
+    .cond-chip {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 10px; padding: 14px;
+      display: flex; align-items: center; gap: 9px;
+      transition: background 0.2s, border-color 0.2s;
+    }
+    .cond-chip:hover { background: rgba(93,186,130,0.12); border-color: rgba(93,186,130,0.3); }
+    .cond-chip .icon { font-size: 1.2rem; flex-shrink: 0; }
+    .cond-chip .name { font-size: 0.79rem; color: rgba(255,255,255,0.82); font-weight: 500; line-height: 1.3; }
+
+    /* ── SERVICES ── */
+    .services-section { background: white; }
     .services-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(256px, 1fr));
-      gap: 1px;
-      background: var(--border);
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px; margin-top: 48px;
+    }
+    .svc-card {
       border: 1px solid var(--border);
-      border-radius: 12px;
+      border-radius: 14px;
       overflow: hidden;
-      margin-top: 48px;
+      transition: box-shadow 0.25s, transform 0.25s;
+      background: white;
     }
-    .service-card {
-      background: var(--white);
-      padding: 32px 26px;
-      transition: background 0.25s;
-      position: relative;
+    .svc-card:hover { box-shadow: 0 12px 40px rgba(13,40,24,0.1); transform: translateY(-3px); }
+    .svc-img { width: 100%; height: 180px; object-fit: cover; display: block; }
+    .svc-body { padding: 20px; }
+    .svc-num { font-size: 0.65rem; color: var(--text-light); letter-spacing: 2px; font-weight: 600; margin-bottom: 6px; }
+    .svc-body h3 { font-family: 'Playfair Display', serif; font-size: 1.1rem; font-weight: 700; color: var(--green-800); margin-bottom: 7px; }
+    .svc-body p { font-size: 0.8rem; color: var(--text-mid); line-height: 1.7; }
+
+    /* ── GALLERY ── */
+    .gallery-section { background: var(--green-50); padding: 70px 5%; }
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: 220px 220px;
+      gap: 12px; margin-top: 40px;
     }
-    .service-card:hover { background: var(--g50); }
+    .gallery-item { border-radius: 12px; overflow: hidden; }
+    .gallery-item img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.4s; }
+    .gallery-item:hover img { transform: scale(1.04); }
+    .gallery-item.span2 { grid-column: span 2; }
+    .gallery-item.row2 { grid-row: span 2; }
 
-    .service-icon-wrap {
-      width: 44px; height: 44px; margin-bottom: 18px;
-      border: 1px solid var(--border-mid);
-      border-radius: 10px;
-      display: flex; align-items: center; justify-content: center;
-    }
-    /* SVG spine-inspired icons */
-    .svc-svg { width: 22px; height: 22px; fill: none; stroke: var(--g600); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
-
-    .service-card h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.15rem; font-weight: 700; color: var(--g800); margin-bottom: 8px; line-height: 1.2; }
-    .service-card p { font-size: 0.82rem; color: var(--text-secondary); line-height: 1.7; }
-
-    .service-num { position: absolute; top: 20px; right: 22px; font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 600; color: var(--g100); line-height: 1; }
-
-    /* ─── ABOUT ─── */
-    .about-section {
-      background: var(--g900);
-    }
-    .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 72px; align-items: center; }
-
-    .about-section .s-label-line { background: var(--g400); }
-    .about-section .s-label-text { color: var(--g300); }
-    .about-section .s-title { color: var(--white); }
-    .about-section .s-desc { color: rgba(255,255,255,0.55); }
-
-    .about-pillars { margin-top: 32px; display: flex; flex-direction: column; gap: 0; border: 1px solid rgba(255,255,255,0.08); border-radius: 10px; overflow: hidden; }
-    .pillar {
+    /* ── DR CARD ── */
+    .dr-section { background: white; }
+    .dr-grid { display: grid; grid-template-columns: 1fr 1.2fr; gap: 60px; align-items: center; }
+    .dr-photo-wrap { position: relative; }
+    .dr-photo-main { border-radius: 16px; overflow: hidden; }
+    .dr-photo-main img { width: 100%; height: 460px; object-fit: cover; display: block; }
+    .dr-photo-badge {
+      position: absolute; bottom: 20px; left: 20px; right: 20px;
+      background: white; border-radius: 10px; padding: 14px 18px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.12);
       display: flex; align-items: center; gap: 14px;
-      padding: 14px 18px;
-      border-bottom: 1px solid rgba(255,255,255,0.06);
-      transition: background 0.2s;
     }
-    .pillar:last-child { border-bottom: none; }
-    .pillar:hover { background: rgba(255,255,255,0.04); }
-    .pillar-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--g400); flex-shrink: 0; }
-    .pillar-text { font-size: 0.85rem; color: rgba(255,255,255,0.72); }
+    .dr-photo-badge img { width: 48px; height: 48px; border-radius: 50%; border: 2px solid var(--green-300); object-fit: cover; }
+    .dr-badge-name { font-family: 'Playfair Display', serif; font-size: 1.05rem; font-weight: 700; color: var(--green-900); }
+    .dr-badge-cred { font-size: 0.68rem; color: var(--text-light); margin-top: 2px; }
+    .dr-contact-box { margin-top: 28px; border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+    .dr-contact-row { display: flex; align-items: center; gap: 14px; padding: 14px 16px; border-bottom: 1px solid var(--border); }
+    .dr-contact-row:last-child { border-bottom: none; }
+    .dr-ico { width: 34px; height: 34px; background: var(--green-50); border: 1px solid var(--green-100); border-radius: 8px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; font-size: 0.9rem; }
+    .dr-contact-row a { font-size: 0.84rem; color: var(--green-700); text-decoration: none; font-weight: 500; }
+    .dr-contact-row a:hover { color: var(--green-900); }
+    .dr-contact-row span { font-size: 0.84rem; color: var(--text-mid); }
 
-    /* Doctor profile card */
-    .dr-card {
-      border: 1px solid rgba(255,255,255,0.1);
-      border-radius: 16px; overflow: hidden;
-      background: rgba(255,255,255,0.03);
-    }
-    .dr-card-header {
-      background: linear-gradient(160deg, var(--g700), var(--g800));
-      padding: 36px 28px 28px;
-      text-align: center;
-      border-bottom: 1px solid rgba(255,255,255,0.08);
-    }
-    .dr-avatar {
-      width: 80px; height: 80px; border-radius: 50%;
-      background: var(--g600);
-      border: 3px solid var(--g400);
-      display: flex; align-items: center; justify-content: center;
-      margin: 0 auto 16px;
-      font-size: 2rem;
-    }
-    .dr-name { font-family: 'Cormorant Garamond', serif; font-size: 1.5rem; font-weight: 700; color: var(--white); }
-    .dr-quals { font-size: 0.72rem; color: var(--g200); letter-spacing: 1.5px; text-transform: uppercase; margin-top: 4px; }
-    .dr-reg { font-size: 0.72rem; color: rgba(255,255,255,0.35); margin-top: 2px; }
-
-    .dr-card-body { padding: 24px 28px; }
-    .dr-bio { font-size: 0.82rem; color: rgba(255,255,255,0.55); line-height: 1.75; margin-bottom: 20px; }
-    .dr-divider { height: 1px; background: rgba(255,255,255,0.08); margin: 16px 0; }
-
-    .dr-contact-row { display: flex; flex-direction: column; gap: 10px; }
-    .dr-contact-item { display: flex; align-items: center; gap: 10px; }
-    .dr-contact-ico { width: 32px; height: 32px; border-radius: 8px; background: rgba(255,255,255,0.06); display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
-    .dr-contact-ico svg { width: 14px; height: 14px; fill: var(--g300); }
-    .dr-contact-item a { font-size: 0.82rem; color: var(--g200); text-decoration: none; font-weight: 500; }
-    .dr-contact-item a:hover { color: var(--white); }
-
-    /* ─── WHY US ─── */
-    .why-section { background: var(--light-bg); }
-    .why-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 20px; margin-top: 48px; }
+    /* ── WHY ── */
+    .why-section { background: var(--green-900); }
+    .why-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin-top: 44px; }
     .why-card {
-      background: var(--white);
-      border: 1px solid var(--border);
-      border-radius: 12px; padding: 28px 22px;
-      transition: border-color 0.2s, transform 0.2s;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 12px; padding: 26px 20px;
+      transition: background 0.2s, border-color 0.2s;
     }
-    .why-card:hover { border-color: var(--g300); transform: translateY(-3px); }
-    .why-ico-wrap {
-      width: 40px; height: 40px;
-      background: var(--g50);
-      border: 1px solid var(--g100);
-      border-radius: 10px;
-      display: flex; align-items: center; justify-content: center;
-      margin-bottom: 16px;
-    }
-    .why-ico-wrap svg { width: 18px; height: 18px; fill: none; stroke: var(--g600); stroke-width: 1.5; stroke-linecap: round; }
-    .why-card h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.05rem; font-weight: 700; color: var(--g800); margin-bottom: 6px; }
-    .why-card p { font-size: 0.8rem; color: var(--text-secondary); line-height: 1.65; }
+    .why-card:hover { background: rgba(93,186,130,0.1); border-color: rgba(93,186,130,0.3); }
+    .why-icon { font-size: 1.8rem; margin-bottom: 14px; }
+    .why-card h3 { font-family: 'Playfair Display', serif; font-size: 1rem; font-weight: 700; color: white; margin-bottom: 6px; }
+    .why-card p { font-size: 0.78rem; color: rgba(255,255,255,0.52); line-height: 1.65; }
 
-    /* ─── TESTIMONIALS ─── */
-    .test-section { background: var(--g900); }
-    .test-section .s-label-line { background: var(--g400); }
-    .test-section .s-label-text { color: var(--g300); }
-    .test-section .s-title { color: var(--white); }
-
-    .test-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; margin-top: 48px; }
+    /* ── TESTIMONIALS ── */
+    .test-section { background: var(--green-50); }
+    .test-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); gap: 18px; margin-top: 44px; }
     .test-card {
-      background: rgba(255,255,255,0.04);
-      border: 1px solid rgba(255,255,255,0.08);
-      border-radius: 12px; padding: 26px 22px;
-      transition: background 0.2s;
+      background: white; border: 1px solid var(--border);
+      border-radius: 14px; padding: 26px 22px;
+      transition: box-shadow 0.2s;
     }
-    .test-card:hover { background: rgba(255,255,255,0.07); }
+    .test-card:hover { box-shadow: 0 8px 30px rgba(13,40,24,0.07); }
     .test-stars { display: flex; gap: 3px; margin-bottom: 14px; }
-    .test-star { width: 12px; height: 12px; }
-    .test-star polygon { fill: var(--gold-light); }
-    .test-text { font-size: 0.85rem; color: rgba(255,255,255,0.68); line-height: 1.75; margin-bottom: 18px; font-style: italic; }
-    .test-name { font-weight: 600; font-size: 0.82rem; color: var(--g200); }
-    .test-loc { font-size: 0.75rem; color: rgba(255,255,255,0.3); margin-top: 2px; }
+    .star { color: #f59e0b; font-size: 0.85rem; }
+    .test-text { font-size: 0.84rem; color: var(--text-mid); line-height: 1.75; margin-bottom: 18px; font-style: italic; }
+    .test-name { font-weight: 600; font-size: 0.82rem; color: var(--green-700); }
+    .test-loc { font-size: 0.72rem; color: var(--text-light); margin-top: 2px; }
 
-    /* ─── BOOKING CTA ─── */
-    .book-section { background: var(--off-white); }
-    .book-card {
-      max-width: 620px; margin: 0 auto;
-      background: var(--white);
-      border: 1px solid var(--border);
-      border-radius: 16px; padding: 52px 44px;
-      text-align: center;
+    /* ── BOOK CTA ── */
+    .book-section { background: var(--green-700); padding: 80px 5%; }
+    .book-inner {
+      max-width: 680px; margin: 0 auto; text-align: center;
     }
-
-    /* Hexagon badge */
-    .hex-badge {
-      display: inline-flex; align-items: center; justify-content: center;
-      width: 56px; height: 56px; margin: 0 auto 22px;
-      position: relative;
+    .book-inner .sec-title { color: white; }
+    .book-inner .sec-title em { color: var(--green-200); }
+    .book-banner {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.25);
+      border-radius: 8px; padding: 10px 20px;
+      font-size: 0.82rem; color: white; font-weight: 600;
+      margin: 20px 0 12px;
     }
-    .hex-badge svg { width: 56px; height: 56px; }
-
-    .book-card .s-title { font-size: 2rem; }
-    .book-card p { font-size: 0.88rem; color: var(--text-secondary); margin: 14px 0 28px; line-height: 1.7; }
-
-    .wa-cta {
+    .book-sub { font-size: 0.87rem; color: rgba(255,255,255,0.65); margin-bottom: 28px; line-height: 1.7; }
+    .wa-big {
       display: inline-flex; align-items: center; gap: 10px;
-      background: var(--wa); color: white; text-decoration: none;
-      padding: 15px 30px; border-radius: 8px;
-      font-weight: 600; font-size: 0.95rem;
-      transition: background 0.2s;
+      background: white; color: var(--green-800); text-decoration: none;
+      padding: 15px 32px; border-radius: 8px;
+      font-weight: 700; font-size: 0.92rem;
+      transition: background 0.2s, transform 0.2s;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.15);
     }
-    .wa-cta:hover { background: var(--wa-dark); }
-    .wa-cta svg { width: 20px; height: 20px; fill: white; }
-    .call-link { display: block; margin-top: 16px; color: var(--g600); text-decoration: none; font-size: 0.85rem; font-weight: 500; }
-    .call-link:hover { color: var(--g800); }
+    .wa-big:hover { background: var(--green-50); transform: translateY(-2px); }
+    .call-link { display: block; margin-top: 16px; color: rgba(255,255,255,0.72); text-decoration: none; font-size: 0.84rem; font-weight: 500; }
+    .call-link:hover { color: white; }
 
-    /* ─── MAP & CONTACT ─── */
-    .contact-section { background: var(--white); }
-    .map-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 56px; align-items: start; }
-    .contact-list { margin-top: 28px; display: flex; flex-direction: column; gap: 0; border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
-    .contact-row {
-      display: flex; align-items: flex-start; gap: 14px;
-      padding: 16px 18px;
-      border-bottom: 1px solid var(--border);
-      transition: background 0.2s;
-    }
+    /* ── CONTACT ── */
+    .contact-section { background: white; }
+    .map-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 52px; align-items: start; }
+    .contact-list { margin-top: 28px; border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+    .contact-row { display: flex; align-items: flex-start; gap: 14px; padding: 16px; border-bottom: 1px solid var(--border); transition: background 0.2s; }
     .contact-row:last-child { border-bottom: none; }
-    .contact-row:hover { background: var(--g50); }
-    .contact-ico-box {
-      width: 36px; height: 36px; flex-shrink: 0;
-      background: var(--g50); border: 1px solid var(--g100);
-      border-radius: 8px; display: flex; align-items: center; justify-content: center;
-      margin-top: 1px;
-    }
-    .contact-ico-box svg { width: 15px; height: 15px; fill: none; stroke: var(--g600); stroke-width: 1.5; stroke-linecap: round; }
-    .c-label { font-size: 0.65rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1.5px; font-weight: 600; }
-    .c-val { font-size: 0.88rem; color: var(--text-primary); font-weight: 500; margin-top: 1px; }
-    .c-val a { color: var(--g600); text-decoration: none; }
+    .contact-row:hover { background: var(--green-50); }
+    .c-ico { width: 36px; height: 36px; background: var(--green-50); border: 1px solid var(--green-100); border-radius: 8px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; font-size: 0.9rem; }
+    .c-label { font-size: 0.63rem; color: var(--text-light); text-transform: uppercase; letter-spacing: 1.5px; font-weight: 600; }
+    .c-val { font-size: 0.86rem; color: var(--text-dark); font-weight: 500; margin-top: 2px; }
+    .c-val a { color: var(--green-600); text-decoration: none; }
     .c-val a:hover { text-decoration: underline; }
-
     .dir-btn {
       display: inline-flex; align-items: center; gap: 8px;
-      margin-top: 20px;
-      background: var(--g700); color: white;
+      margin-top: 18px;
+      background: var(--green-700); color: white;
       padding: 11px 22px; border-radius: 8px;
-      text-decoration: none; font-size: 0.84rem; font-weight: 600;
+      text-decoration: none; font-size: 0.83rem; font-weight: 600;
       transition: background 0.2s;
     }
-    .dir-btn:hover { background: var(--g800); }
-    .dir-btn svg { width: 14px; height: 14px; fill: none; stroke: white; stroke-width: 1.5; }
+    .dir-btn:hover { background: var(--green-800); }
+    .map-embed { border-radius: 14px; overflow: hidden; border: 1px solid var(--border); }
+    .map-embed iframe { width: 100%; height: 380px; border: none; display: block; }
 
-    .map-embed { border-radius: 12px; overflow: hidden; border: 1px solid var(--border); }
-    .map-embed iframe { width: 100%; height: 360px; border: none; display: block; }
-
-    /* ─── FOOTER ─── */
+    /* ── FOOTER ── */
     footer {
-      background: var(--g900);
+      background: var(--green-900);
       border-top: 1px solid rgba(255,255,255,0.06);
-      padding: 32px 6%;
+      padding: 28px 5%;
       display: flex; align-items: center; justify-content: space-between;
-      flex-wrap: wrap; gap: 16px;
+      flex-wrap: wrap; gap: 14px;
     }
-    .foot-brand { display: flex; align-items: center; gap: 10px; }
-    .foot-brand img { height: 32px; width: 32px; border-radius: 50%; border: 1px solid var(--g500); }
-    .foot-name { font-family: 'Cormorant Garamond', serif; font-size: 1rem; font-weight: 700; color: var(--white); }
-    .foot-copy { font-size: 0.72rem; color: rgba(255,255,255,0.3); }
-    .foot-links { display: flex; gap: 20px; }
-    .foot-links a { font-size: 0.78rem; color: rgba(255,255,255,0.45); text-decoration: none; transition: color 0.2s; }
-    .foot-links a:hover { color: var(--g300); }
+    .foot-logo { font-family: 'Playfair Display', serif; font-size: 0.98rem; font-weight: 700; color: white; }
+    .foot-sub { font-size: 0.66rem; color: rgba(255,255,255,0.3); margin-top: 2px; }
+    .foot-links { display: flex; gap: 18px; flex-wrap: wrap; }
+    .foot-links a { font-size: 0.76rem; color: rgba(255,255,255,0.42); text-decoration: none; transition: color 0.2s; }
+    .foot-links a:hover { color: var(--green-300); }
+    .foot-copy { font-size: 0.68rem; color: rgba(255,255,255,0.25); }
 
-    /* ─── FLOAT WA ─── */
+    /* ── FLOAT WA ── */
     .float-wa {
-      position: fixed; bottom: 24px; right: 24px; z-index: 998;
-      width: 54px; height: 54px;
+      position: fixed; bottom: 22px; right: 22px; z-index: 998;
+      width: 52px; height: 52px;
       background: var(--wa); border-radius: 50%;
       display: flex; align-items: center; justify-content: center;
       text-decoration: none;
-      box-shadow: 0 4px 16px rgba(37,211,102,0.45);
+      box-shadow: 0 4px 20px rgba(37,211,102,0.45);
+      font-size: 1.5rem;
+      transition: background 0.2s, transform 0.2s;
     }
-    .float-wa svg { width: 26px; height: 26px; fill: white; }
-    .float-wa:hover { background: var(--wa-dark); }
+    .float-wa:hover { background: var(--wa-dark); transform: scale(1.08); }
 
-    /* Subtle hexagon watermark */
-    .hex-watermark {
-      position: absolute;
-      opacity: 0.03;
-      pointer-events: none;
-    }
-
-    /* ─── RESPONSIVE ─── */
-    @media (max-width: 900px) {
-      .hero-visual { display: none; }
-      .about-grid { grid-template-columns: 1fr; gap: 40px; }
-      .map-grid { grid-template-columns: 1fr; gap: 32px; }
+    /* ── RESPONSIVE ── */
+    @media (max-width: 1024px) {
+      .hero { grid-template-columns: 1fr; padding: 110px 5% 50px; }
+      .hero-visual { display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 200px 200px; height: auto; max-width: 500px; }
+      .hero-img-main { grid-row: 1 / 3; }
+      .about-grid { grid-template-columns: 1fr; }
+      .about-imgs { max-width: 500px; }
+      .about-img.tall img { min-height: 260px; }
+      .dr-grid { grid-template-columns: 1fr; }
+      .dr-photo-main img { height: 320px; }
+      .map-grid { grid-template-columns: 1fr; }
+      .gallery-grid { grid-template-columns: 1fr 1fr; grid-template-rows: 200px 200px 200px; }
+      .gallery-item.span2 { grid-column: span 1; }
     }
     @media (max-width: 768px) {
       .nav-links, .nav-cta { display: none; }
       .hamburger { display: flex; }
       nav { padding: 0 5%; }
-      section { padding: 64px 5%; }
-      .hero { padding: 90px 5% 50px; }
-      .book-card { padding: 36px 24px; }
+      section { padding: 56px 5%; }
+      .trust-strip { gap: 0; }
+      .ts-item { border-right: none; border-bottom: 1px solid var(--green-100); width: 50%; justify-content: center; }
+      .ts-item:nth-child(3), .ts-item:nth-child(4) { border-bottom: none; }
+      .hero-stats { gap: 20px; }
+      .services-grid { grid-template-columns: 1fr; }
+      .gallery-grid { grid-template-columns: 1fr; grid-template-rows: auto; }
+      .gallery-item.row2 { grid-row: span 1; }
+      .gallery-item img { height: 200px; }
       footer { flex-direction: column; align-items: flex-start; }
+      .book-section { padding: 56px 5%; }
     }
     @media (max-width: 480px) {
-      .services-grid { grid-template-columns: 1fr; }
+      .hero h1 { font-size: 2.2rem; }
+      .hero-visual { grid-template-columns: 1fr 1fr; height: 260px; }
+      .hero-img-main { height: 100%; }
+      .hero-img-sm { height: 100%; }
+      .conditions-grid { grid-template-columns: 1fr 1fr; }
       .why-grid { grid-template-columns: 1fr; }
       .test-grid { grid-template-columns: 1fr; }
-      .hero-stats { flex-wrap: wrap; gap: 24px; }
+      .ts-item { width: 100%; }
+      .ts-item:nth-child(3) { border-bottom: 1px solid var(--green-100); }
+      .ts-item:nth-child(4) { border-bottom: none; }
+      nav { height: 58px; }
+      .mobile-menu { top: 92px; }
+      .hero { padding-top: 100px; }
     }
   </style>
 </head>
 <body>
 
+<!-- TOP BANNER -->
+<!-- <div class="top-banner">
+  <span class="badge">✓ Free Consultation</span>
+  <span>No Drugs &nbsp;·&nbsp; No Side Effects &nbsp;·&nbsp; Male &amp; Female Therapist</span>
+  <a href="tel:+919500538543">📞 9500 538 543</a>
+</div> -->
+
 <!-- NAV -->
 <nav>
   <a href="#home" class="nav-logo">
-    <img src="neckspine.png" alt="Neck & Spine Clinic Logo" />
-    <div class="nav-brand">
-      <span class="nav-brand-main">Neck &amp; Spine Clinic</span>
-      <span class="nav-brand-sub">Kudamaloor · Kottayam</span>
+    <img src="neckspine.png" alt="Neck & Spine Clinic" onerror="this.style.display='none'" />
+    <div>
+      <div class="nav-brand-main">Neck &amp; Spine Clinic</div>
+      <div class="nav-brand-sub">Kudamaloor · Kottayam</div>
     </div>
   </a>
   <div class="nav-links">
-    <a href="#services">Services</a>
     <a href="#about">About</a>
+    <a href="#conditions">Conditions</a>
+    <a href="#services">Services</a>
     <a href="#contact">Contact</a>
   </div>
-  <a href="https://wa.me/919500538543?text=Hello%20Dr.%20Anish%2C%20I%20would%20like%20to%20book%20an%20appointment%20at%20Neck%20%26%20Spine%20Clinic." class="nav-cta" target="_blank" rel="noopener">
-    <svg viewBox="0 0 24 24" width="14" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-    Book Now
+  <a href="https://wa.me/919500538543?text=Hello%20Dr.%20Anish%2C%20I%20would%20like%20to%20book%20a%20FREE%20consultation." class="nav-cta" target="_blank" rel="noopener">
+    💬 Free Consult
   </a>
-  <div class="hamburger" onclick="toggleMenu()">
+  <button class="hamburger" onclick="toggleMenu()" aria-label="Menu">
     <span></span><span></span><span></span>
-  </div>
+  </button>
 </nav>
 
 <!-- MOBILE MENU -->
 <div class="mobile-menu" id="mobileMenu">
-  <a href="#services" onclick="toggleMenu()">Services</a>
-  <a href="#about" onclick="toggleMenu()">About Dr. Anish</a>
-  <a href="#contact" onclick="toggleMenu()">Contact &amp; Location</a>
-  <a href="https://wa.me/919500538543?text=Hello%20Dr.%20Anish%2C%20I%20would%20like%20to%20book%20an%20appointment." target="_blank" rel="noopener" style="color:#25D366;font-weight:600;">Book via WhatsApp</a>
-  <a href="tel:+919500538543" style="color:#5dba82;">Call: +91 9500 538 543</a>
+  <a href="#about" onclick="closeMenu()">About Dr. Anish</a>
+  <a href="#conditions" onclick="closeMenu()">Conditions Treated</a>
+  <a href="#services" onclick="closeMenu()">Our Therapies</a>
+  <a href="#contact" onclick="closeMenu()">Contact &amp; Location</a>
+  <a href="https://wa.me/919500538543?text=Hello%20Dr.%20Anish%2C%20I%20would%20like%20to%20book%20a%20FREE%20consultation." target="_blank" rel="noopener" style="color:#25D366;font-weight:600;">📲 Book Free Consult on WhatsApp</a>
+  <a href="tel:+919500538543" style="color:var(--green-600);">📞 Call: +91 9500 538 543</a>
 </div>
 
 <!-- HERO -->
 <section class="hero" id="home">
-  <!-- Hexagon SVG watermarks from logo motif -->
-  <svg class="hero-hex" viewBox="0 0 100 115" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <polygon points="50,2 98,27 98,88 50,113 2,88 2,27" stroke="white" stroke-width="1" fill="none"/>
-  </svg>
-  <svg class="hero-hex-2" viewBox="0 0 100 115" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <polygon points="50,2 98,27 98,88 50,113 2,88 2,27" stroke="white" stroke-width="1.5" fill="none"/>
-  </svg>
-  <div class="hero-spine-line"></div>
-
   <div class="hero-content">
-    <div class="hero-eyebrow">
-      <div class="hero-eyebrow-line"></div>
-      <span class="hero-eyebrow-text">Prakrithi Chikitsa &amp; Holistic Medicine</span>
-    </div>
-    <h1>Heal Your <span class="accent"><em>Neck</em></span><br>&amp; <span class="word-spine">Spine</span> Naturally</h1>
-    <p class="hero-tagline">Restore · Rejuvenate · Revive</p>
-    <p class="hero-desc">Authentic Ayurvedic, naturopathic, and modern therapeutic treatments — tailored to restore your body, mind, and spirit to natural balance.</p>
-    <p class="hero-dr"><strong>Dr. Anish</strong> &nbsp;·&nbsp; B.N.Y.S., MSc (Psychology) &nbsp;·&nbsp; Reg. No. 1171</p>
-    <div class="hero-actions">
-      <a class="btn-wa" href="https://wa.me/919500538543?text=Hello%20Dr.%20Anish%2C%20I%20would%20like%20to%20book%20an%20appointment%20at%20Neck%20%26%20Spine%20Clinic." target="_blank" rel="noopener">
-        <svg viewBox="0 0 24 24" width="16" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-        Book on WhatsApp
+    <!-- <div class="free-pill"> -->
+      <!-- <div class="free-pill-dot"></div> -->
+      <!-- <span class="free-pill-text">✦ Free Consultation Available</span> -->
+    <!-- </div> -->
+    <p class="hero-eyebrow">Prakrithi Chikitsa &amp; Holistic Medicine</p>
+    <h1>Heal Your <span class="accent">Neck</span><br>&amp; Spine <em>Naturally</em></h1>
+    <!-- <p class="hero-sub">Authentic Ayurvedic, naturopathic and modern therapeutic treatments — tailored to restore body, mind &amp; spirit to natural balance. No drugs. No side effects.</p> -->
+    <p class="hero-dr"><strong>Dr. Anish</strong> &nbsp;·&nbsp; B.N.Y.S. (5.5 Years), MSc Psychology &nbsp;·&nbsp; Reg. No. 1171</p>
+    <!-- <div class="hero-trust">
+      <div class="trust-badge red">🆓 Free Consultation</div>
+      <div class="trust-badge">🚫 No Drugs</div>
+      <div class="trust-badge">✅ No Side Effects</div>
+      <div class="trust-badge">👥 Male &amp; Female Therapist</div>
+    </div> -->
+    <div class="hero-btns">
+      <a class="btn-wa" href="https://wa.me/919500538543?text=Hello%20Dr.%20Anish%2C%20I%20would%20like%20to%20book%20a%20FREE%20consultation." target="_blank" rel="noopener">
+        💬 Book Free Consult
       </a>
-      <a class="btn-outline" href="tel:+919500538543">
-        <svg viewBox="0 0 24 24" width="15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 11.05a19.79 19.79 0 01-3.07-8.67A2 2 0 012 .18h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 14z"/></svg>
-        Call Now
-      </a>
+      <a class="btn-call" href="tel:+919500538543">📞 Call Now</a>
     </div>
     <div class="hero-stats">
-      <div class="stat"><div class="stat-num">8+</div><div class="stat-label">Therapies</div></div>
-      <div class="stat"><div class="stat-num">10000+</div><div class="stat-label">Healed</div></div>
-      <div class="stat"><div class="stat-num">5★</div><div class="stat-label">Patient Trust</div></div>
+      <div><div class="stat-num">8+</div><div class="stat-label">Therapies</div></div>
+      <div><div class="stat-num">10K+</div><div class="stat-label">Healed</div></div>
+      <div><div class="stat-num">FREE</div><div class="stat-label">Consultation</div></div>
+      <div><div class="stat-num">5★</div><div class="stat-label">Patient Trust</div></div>
     </div>
   </div>
 
-  <!-- Right side: large hexagon logo display -->
   <div class="hero-visual">
-    <svg width="300" height="346" viewBox="0 0 300 346" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <!-- Outer hex -->
-      <polygon points="150,6 294,81 294,265 150,340 6,265 6,81" stroke="rgba(93,186,130,0.25)" stroke-width="1.5" fill="none"/>
-      <!-- Mid hex -->
-      <polygon points="150,28 272,95 272,243 150,318 28,243 28,95" stroke="rgba(93,186,130,0.12)" stroke-width="1" fill="none"/>
-      <!-- Inner hex filled -->
-      <polygon points="150,56 248,112 248,224 150,280 52,224 52,112" fill="rgba(30,82,52,0.6)" stroke="rgba(93,186,130,0.4)" stroke-width="1.5"/>
-      <!-- Spine vertebrae column — centered -->
-      <rect x="144" y="90" width="12" height="8" rx="2" fill="rgba(93,186,130,0.9)"/>
-      <rect x="144" y="103" width="12" height="8" rx="2" fill="rgba(93,186,130,0.8)"/>
-      <rect x="144" y="116" width="12" height="8" rx="2" fill="rgba(93,186,130,0.75)"/>
-      <rect x="144" y="129" width="12" height="8" rx="2" fill="rgba(93,186,130,0.7)"/>
-      <rect x="144" y="142" width="12" height="8" rx="2" fill="rgba(93,186,130,0.65)"/>
-      <rect x="144" y="155" width="12" height="8" rx="2" fill="rgba(93,186,130,0.6)"/>
-      <rect x="144" y="168" width="12" height="8" rx="2" fill="rgba(93,186,130,0.55)"/>
-      <rect x="144" y="181" width="12" height="8" rx="2" fill="rgba(93,186,130,0.5)"/>
-      <rect x="144" y="194" width="12" height="8" rx="2" fill="rgba(93,186,130,0.45)"/>
-      <rect x="144" y="207" width="12" height="8" rx="2" fill="rgba(93,186,130,0.4)"/>
-      <!-- Lotus petals at top -->
-      <ellipse cx="150" cy="82" rx="18" ry="10" fill="rgba(93,186,130,0.35)" transform="rotate(-30 150 82)"/>
-      <ellipse cx="150" cy="82" rx="18" ry="10" fill="rgba(93,186,130,0.35)" transform="rotate(30 150 82)"/>
-      <ellipse cx="150" cy="78" rx="10" ry="14" fill="rgba(93,186,130,0.5)"/>
-      <!-- Tagline text -->
-      <text x="150" y="252" text-anchor="middle" font-size="8" fill="rgba(93,186,130,0.6)" font-family="Inter,sans-serif" letter-spacing="2">PRAKRITHI CHIKITSA</text>
-      <text x="150" y="264" text-anchor="middle" font-size="7" fill="rgba(93,186,130,0.4)" font-family="Inter,sans-serif" letter-spacing="1.5">&amp; HOLISTIC MEDICINE</text>
-    </svg>
+    <div class="hero-img-main">
+      <img src="https://images.unsplash.com/photo-1600334129128-685c5582fd35?w=600&q=80&auto=format&fit=crop" alt="Ayurvedic Treatment" loading="eager" />
+    </div>
+    <div class="hero-img-sm">
+      <img src="image3.jpg" alt="Herbal Oil Massage" loading="eager" />
+    </div>
+    <div class="hero-img-sm">
+      <img src="https://images.unsplash.com/photo-1591343395082-e120087004b4?w=400&q=80&auto=format&fit=crop" alt="Cupping Therapy" loading="eager" />
+    </div>
+  </div>
+</section>
+
+<!-- TRUST STRIP -->
+<div class="trust-strip">
+  <div class="ts-item"><span class="ts-icon">🌿</span> 100% Natural Healing</div>
+  <div class="ts-item"><span class="ts-icon">🆓</span> Free First Consultation</div>
+  <div class="ts-item"><span class="ts-icon">👨‍⚕️</span> Qualified BNYS Doctor</div>
+  <div class="ts-item"><span class="ts-icon">💊</span> Zero Drugs &amp; Side Effects</div>
+</div>
+
+<!-- ABOUT DR -->
+<section class="about-section" id="about">
+  <div class="about-grid">
+    <div class="about-imgs">
+      <div class="about-img tall">
+        <img src="https://images.unsplash.com/photo-1603398938378-e54eab446dde?w=500&q=80&auto=format&fit=crop" alt="Ayurvedic Doctor" />
+      </div>
+      <div class="about-img">
+        <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?w=400&q=80&auto=format&fit=crop" alt="Spine Treatment" />
+      </div>
+      <div class="about-img">
+        <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&q=80&auto=format&fit=crop" alt="Yoga Therapy" />
+      </div>
+    </div>
+    <div class="about-text">
+      <div class="sec-label"><div class="sec-label-line"></div><span class="sec-label-text">About Dr. Anish</span></div>
+      <h2 class="sec-title">Treating Body, <em>Mind</em> &amp; Spirit as One</h2>
+      <p class="sec-desc">Nature has divided our being into three: Body, Mind, and Soul. Our daily routine, food habits, and lifestyle directly affect all three. Maintaining health through Panchakarma therapy is the most sustainable path to true wellness.</p>
+      <p class="sec-desc">Certified naturopathic physician with 5.5 years of specialised training. Expert in spinal health, Ayurveda, and psychosomatic wellness — dedicated to drug-free, surgery-free healing through nature.</p>
+      <div class="pillars" style="margin-top:20px;">
+        <div class="pillar"><div class="pillar-dot"></div><span>Eat three nutritious meals daily at proper times</span></div>
+        <div class="pillar"><div class="pillar-dot"></div><span>Drink 2–3 litres of water daily for cellular hydration</span></div>
+        <div class="pillar"><div class="pillar-dot"></div><span>Pray twice a day and maintain a positive mindset</span></div>
+        <div class="pillar"><div class="pillar-dot"></div><span>Limit mobile phone use to one hour per day</span></div>
+        <div class="pillar"><div class="pillar-dot"></div><span>Exercise for at least one hour every day</span></div>
+      </div>
+      <div class="dr-contact-box">
+        <div class="dr-contact-row"><div class="dr-ico">📞</div><a href="tel:+919500538543">+91 9500 538 543</a></div>
+        <div class="dr-contact-row"><div class="dr-ico">✉️</div><a href="mailto:neckandspineclinic@gmail.com">neckandspineclinic@gmail.com</a></div>
+        <div class="dr-contact-row"><div class="dr-ico">⏰</div><span>Mon – Sat: 8:00 AM – 8:00 PM</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONDITIONS TREATED -->
+<section class="conditions-section" id="conditions">
+  <div class="center">
+    <div class="sec-label" style="justify-content:center;"><div class="sec-label-line" style="background:var(--green-400)"></div><span class="sec-label-text" style="color:var(--green-300)">Most Treatable Diseases</span><div class="sec-label-line" style="background:var(--green-400)"></div></div>
+    <h2 class="sec-title light">Conditions We <em>Treat</em></h2>
+    <p class="sec-desc light">Drug-free, natural treatment for a wide range of chronic and acute conditions — from spine problems to systemic disorders.</p>
+  </div>
+  <div class="conditions-grid">
+    <div class="cond-chip"><span class="icon">🧠</span><span class="name">Stroke &amp; Paralysis</span></div>
+    <div class="cond-chip"><span class="icon">⚡</span><span class="name">Migraine &amp; Headaches</span></div>
+    <div class="cond-chip"><span class="icon">🦴</span><span class="name">Disc Problems</span></div>
+    <div class="cond-chip"><span class="icon">🦵</span><span class="name">Knee Pain</span></div>
+    <div class="cond-chip"><span class="icon">🏃</span><span class="name">Sports Injuries</span></div>
+    <div class="cond-chip"><span class="icon">🩻</span><span class="name">Fractures (Rehab)</span></div>
+    <div class="cond-chip"><span class="icon">🔩</span><span class="name">Joint Dislocation</span></div>
+    <div class="cond-chip"><span class="icon">💪</span><span class="name">Pain Management</span></div>
+    <div class="cond-chip"><span class="icon">🤲</span><span class="name">Numbness – Hands &amp; Legs</span></div>
+    <div class="cond-chip"><span class="icon">⚖️</span><span class="name">Weight Reduction</span></div>
+    <div class="cond-chip"><span class="icon">🩺</span><span class="name">Metabolic Disorders</span></div>
+    <div class="cond-chip"><span class="icon">🫁</span><span class="name">Digestive Disorders</span></div>
+    <div class="cond-chip"><span class="icon">🌡️</span><span class="name">Hormonal Imbalance</span></div>
+    <div class="cond-chip"><span class="icon">🧘</span><span class="name">Stress &amp; Anxiety</span></div>
+    <div class="cond-chip"><span class="icon">🦶</span><span class="name">Foot &amp; Heel Pain</span></div>
+    <div class="cond-chip"><span class="icon">💆</span><span class="name">Neck &amp; Back Pain</span></div>
   </div>
 </section>
 
 <!-- SERVICES -->
 <section class="services-section" id="services">
   <div class="center">
-    <div class="s-label"><div class="s-label-line"></div><span class="s-label-text">Our Treatments</span><div class="s-label-line"></div></div>
-    <h2 class="s-title">Comprehensive <em>Healing</em> Therapies</h2>
-    <p class="s-desc">From ancient Ayurvedic wisdom to modern physiotherapy — a full spectrum of treatments for lasting relief and wellness.</p>
+    <div class="sec-label"><div class="sec-label-line"></div><span class="sec-label-text">Our Treatments</span><div class="sec-label-line"></div></div>
+    <h2 class="sec-title">Comprehensive <em>Healing</em> Therapies</h2>
+    <p class="sec-desc">From ancient Ayurvedic wisdom to modern physiotherapy — a full spectrum of treatments for lasting relief. No drugs. No side effects.</p>
   </div>
   <div class="services-grid">
-    <div class="service-card">
-      <div class="service-num">01</div>
-      <div class="service-icon-wrap">
-        <svg class="svc-svg" viewBox="0 0 24 24"><path d="M12 2c-1 2-3 3-3 6s2 4 3 4 3-1 3-4-2-4-3-6z"/><path d="M6 14c0 3.3 2.7 6 6 6s6-2.7 6-6"/><line x1="12" y1="14" x2="12" y2="20"/></svg>
+    <div class="svc-card">
+      <img class="svc-img" src="panchakarma.jpg" alt="Panchakarma Ayurveda" loading="lazy" />
+      <div class="svc-body">
+        <div class="svc-num">01 · AYURVEDA</div>
+        <h3>Panchakarma</h3>
+        <p>Traditional Ayurvedic detoxification and rejuvenation. Balances the five elements to promote deep healing and immunity.</p>
       </div>
-      <h3>Panchakarma (Ayurveda)</h3>
-      <p>Traditional Ayurvedic detoxification and rejuvenation. Balances the five elements to promote deep healing and immunity.</p>
     </div>
-    <div class="service-card">
-      <div class="service-num">02</div>
-      <div class="service-icon-wrap">
-        <svg class="svc-svg" viewBox="0 0 24 24"><rect x="9" y="3" width="6" height="4" rx="1"/><rect x="9" y="9" width="6" height="4" rx="1"/><rect x="9" y="15" width="6" height="4" rx="1"/><line x1="12" y1="3" x2="12" y2="19"/></svg>
+    <div class="svc-card">
+      <img class="svc-img" src="https://images.unsplash.com/photo-1519824145371-296894a0daa9?w=600&q=80&auto=format&fit=crop" alt="Chiropractic Care" loading="lazy" />
+      <div class="svc-body">
+        <div class="svc-num">02 · SPINAL CARE</div>
+        <h3>Chiropractic Care</h3>
+        <p>Manual spinal adjustments to relieve neck, back, and joint pain. Improves posture, flexibility, and nerve function.</p>
       </div>
-      <h3>Chiropractic Care</h3>
-      <p>Manual spinal adjustments to relieve neck, back, and joint pain. Improves posture, flexibility, and nerve function.</p>
     </div>
-    <div class="service-card">
-      <div class="service-num">03</div>
-      <div class="service-icon-wrap">
-        <svg class="svc-svg" viewBox="0 0 24 24"><circle cx="12" cy="5" r="3"/><path d="M6 20v-4a2 2 0 012-2h8a2 2 0 012 2v4"/><path d="M12 8v5"/></svg>
+    <div class="svc-card">
+      <img class="svc-img" src="pysio.jpg" alt="Physiotherapy" loading="lazy" />
+      <div class="svc-body">
+        <div class="svc-num">03 · REHABILITATION</div>
+        <h3>Physiotherapy</h3>
+        <p>Evidence-based physical rehabilitation using therapeutic exercises to restore movement and strength. Ideal for sports injuries.</p>
       </div>
-      <h3>Physiotherapy</h3>
-      <p>Evidence-based physical rehabilitation using therapeutic exercises and mobilisation to restore movement and strength.</p>
     </div>
-    <div class="service-card">
-      <div class="service-num">04</div>
-      <div class="service-icon-wrap">
-        <svg class="svc-svg" viewBox="0 0 24 24"><path d="M4 19c2-4 4-8 8-8s6 4 8 8"/><circle cx="12" cy="7" r="3"/><path d="M8 19c1-2 2-3 4-3s3 1 4 3"/></svg>
+    <div class="svc-card">
+      <img class="svc-img" src="foot.jpg" alt="Foot Reflexology" loading="lazy" />
+      <div class="svc-body">
+        <div class="svc-num">04 · REFLEXOLOGY</div>
+        <h3>Foot Reflexology</h3>
+        <p>Targeted pressure on reflex points of the feet to stimulate organs and promote whole-body wellness and relaxation.</p>
       </div>
-      <h3>Foot Reflexology</h3>
-      <p>Targeted pressure on reflex points of the feet to stimulate organs and promote whole-body wellness and relaxation.</p>
     </div>
-    <div class="service-card">
-      <div class="service-num">05</div>
-      <div class="service-icon-wrap">
-        <svg class="svc-svg" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><path d="M12 4 C8 6 8 10 12 12 C16 14 16 18 12 20"/><path d="M8 8 C10 7 12 8 12 12"/></svg>
+    <div class="svc-card">
+      <img class="svc-img" src="https://images.unsplash.com/photo-1591343395082-e120087004b4?w=600&q=80&auto=format&fit=crop" alt="Cupping Therapy" loading="lazy" />
+      <div class="svc-body">
+        <div class="svc-num">05 · DETOX</div>
+        <h3>Cupping Therapy</h3>
+        <p>Ancient suction technique to draw out toxins, improve blood circulation, and relieve deep muscular tension and pain.</p>
       </div>
-      <h3>Cupping Therapy</h3>
-      <p>Ancient suction technique to draw out toxins, improve blood circulation, and relieve deep muscular tension and pain.</p>
     </div>
-    <div class="service-card">
-      <div class="service-num">06</div>
-      <div class="service-icon-wrap">
-        <svg class="svc-svg" viewBox="0 0 24 24"><path d="M9 6c0-2 3-2 3 0s3 2 3 0"/><path d="M12 6c0 6-6 8-6 14h12c0-6-6-8-6-14z"/></svg>
+    <div class="svc-card">
+      <img class="svc-img" src="massage.jpg" alt="Massage Therapy" loading="lazy" />
+      <div class="svc-body">
+        <div class="svc-num">06 · RELAXATION</div>
+        <h3>Massage Therapy</h3>
+        <p>Therapeutic massage to relieve muscular tension, reduce stress, enhance blood flow, and promote deep relaxation.</p>
       </div>
-      <h3>Massage Therapy</h3>
-      <p>Therapeutic massage to relieve muscular tension, reduce stress, enhance blood flow, and promote deep relaxation.</p>
     </div>
-    <div class="service-card">
-      <div class="service-num">07</div>
-      <div class="service-icon-wrap">
-        <svg class="svc-svg" viewBox="0 0 24 24"><circle cx="12" cy="12" r="2"/><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>
+    <div class="svc-card">
+      <img class="svc-img" src="accu.jpg" alt="Acupuncture" loading="lazy" />
+      <div class="svc-body">
+        <div class="svc-num">07 · ENERGY HEALING</div>
+        <h3>Acupuncture</h3>
+        <p>Fine needles at energy meridian points to restore the body's natural prana flow and treat migraine and chronic pain.</p>
       </div>
-      <h3>Acupuncture</h3>
-      <p>Fine needles at energy meridian points to restore the body's natural prana flow and treat a wide range of conditions.</p>
     </div>
-    <div class="service-card">
-      <div class="service-num">08</div>
-      <div class="service-icon-wrap">
-        <svg class="svc-svg" viewBox="0 0 24 24"><circle cx="12" cy="5" r="3"/><path d="M5 20c0-4 3-7 7-7s7 3 7 7"/><path d="M5 14c1-2 4-2 7-1"/></svg>
+    <div class="svc-card">
+      <img class="svc-img" src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600&q=80&auto=format&fit=crop" alt="Yoga Therapy" loading="lazy" />
+      <div class="svc-body">
+        <div class="svc-num">08 · WELLNESS</div>
+        <h3>Yoga &amp; Stress Relief</h3>
+        <p>Guided pranayama, meditation, and therapeutic yoga to build strength, flexibility, and lasting mental wellness.</p>
       </div>
-      <h3>Yoga &amp; Stress Relief</h3>
-      <p>Guided pranayama, meditation, and therapeutic yoga to build strength, flexibility, and cultivate lasting mental wellness.</p>
     </div>
   </div>
 </section>
 
-<!-- ABOUT -->
-<section class="about-section" id="about">
-  <div class="about-grid">
-    <div>
-      <div class="s-label"><div class="s-label-line"></div><span class="s-label-text">About the Doctor</span></div>
-      <h2 class="s-title" style="color:white;">Treating Body, <em style="color:var(--g300);">Mind</em> &amp; Spirit as One</h2>
-      <p class="s-desc" style="color:rgba(255,255,255,0.55);">Nature has divided our being into three: Body, Mind, and Soul. Our daily routine, food habits, and lifestyle directly affect all three. Maintaining health through Panchakarma therapy is the most sustainable path to true wellness.</p>
-      <div class="about-pillars">
-        <div class="pillar"><div class="pillar-dot"></div><span class="pillar-text">Eat three nutritious meals daily at proper times</span></div>
-        <div class="pillar"><div class="pillar-dot"></div><span class="pillar-text">Drink 2–3 litres of water daily for cellular hydration</span></div>
-        <div class="pillar"><div class="pillar-dot"></div><span class="pillar-text">Pray twice a day and maintain a positive mindset</span></div>
-        <div class="pillar"><div class="pillar-dot"></div><span class="pillar-text">Use mobile phones for a maximum of one hour per day</span></div>
-        <div class="pillar"><div class="pillar-dot"></div><span class="pillar-text">Exercise for at least one hour every day</span></div>
-      </div>
-    </div>
-    <div class="dr-card">
-      <div class="dr-card-header">
-        <div class="dr-avatar">👨‍⚕️</div>
-        <div class="dr-name">Dr. Anish</div>
-        <div class="dr-quals">B.N.Y.S. · MSc (Psychology)</div>
-        <div class="dr-reg">Registration No. 1171</div>
-      </div>
-      <div class="dr-card-body">
-        <p class="dr-bio">Certified naturopathic physician specialising in spinal health, Ayurveda, and psychosomatic wellness. Dedicated to drug-free, surgery-free healing through nature.</p>
-        <div class="dr-divider"></div>
-        <div class="dr-contact-row">
-          <div class="dr-contact-item">
-            <div class="dr-contact-ico">
-              <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 11.05a19.79 19.79 0 01-3.07-8.67A2 2 0 012 .18h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 14z"/></svg>
-            </div>
-            <a href="tel:+919500538543">+91 9500 538 543</a>
-          </div>
-          <div class="dr-contact-item">
-            <div class="dr-contact-ico">
-              <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-            </div>
-            <a href="mailto:neckandspineclinic@gmail.com" style="font-size:0.76rem;">neckandspineclinic@gmail.com</a>
-          </div>
-        </div>
-      </div>
-    </div>
+<!-- GALLERY -->
+<section class="gallery-section">
+  <div class="center">
+    <div class="sec-label"><div class="sec-label-line"></div><span class="sec-label-text">Our Clinic</span><div class="sec-label-line"></div></div>
+    <h2 class="sec-title">Healing in a <em>Peaceful</em> Environment</h2>
+    <p class="sec-desc">A calm, professional space designed to help you relax, heal, and rejuvenate naturally.</p>
   </div>
+  <!-- <div class="gallery-grid">
+    <div class="gallery-item span2 row2">
+      <img src="https://images.unsplash.com/photo-1600334129128-685c5582fd35?w=800&q=80&auto=format&fit=crop" alt="Ayurvedic Treatment Room" loading="lazy" />
+    </div>
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=500&q=80&auto=format&fit=crop" alt="Herbal Oil" loading="lazy" />
+    </div>
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1587351021759-3e566b3db4f1?w=500&q=80&auto=format&fit=crop" alt="Ayurvedic Herbs" loading="lazy" />
+    </div>
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=500&q=80&auto=format&fit=crop" alt="Meditation Yoga" loading="lazy" />
+    </div>
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1575052814086-f385e2e2ad1b?w=500&q=80&auto=format&fit=crop" alt="Ayurvedic Oils" loading="lazy" />
+    </div>
+  </div> -->
 </section>
 
 <!-- WHY US -->
 <section class="why-section">
   <div class="center">
-    <div class="s-label"><div class="s-label-line"></div><span class="s-label-text">Why Choose Us</span><div class="s-label-line"></div></div>
-    <h2 class="s-title">Healing Rooted in <em>Trust</em></h2>
+    <div class="sec-label" style="justify-content:center;"><div class="sec-label-line" style="background:var(--green-400)"></div><span class="sec-label-text" style="color:var(--green-300)">Why Choose Us</span><div class="sec-label-line" style="background:var(--green-400)"></div></div>
+    <h2 class="sec-title light">Healing Rooted in <em>Trust</em></h2>
+    <p class="sec-desc light">Every patient deserves compassionate, drug-free care with honest guidance and visible results.</p>
   </div>
   <div class="why-grid">
-    <div class="why-card">
-      <div class="why-ico-wrap">
-        <svg viewBox="0 0 24 24"><path d="M12 2c-1.5 3-4 5-4 9a4 4 0 008 0c0-4-2.5-6-4-9z"/><path d="M8.5 18.5C9 20 10 21 12 21s3-1 3.5-2.5"/></svg>
-      </div>
-      <h3>100% Natural</h3>
-      <p>No harmful drugs or surgery. Pure naturopathic and Ayurvedic healing methods only.</p>
-    </div>
-    <div class="why-card">
-      <div class="why-ico-wrap">
-        <svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M6 20v-2a4 4 0 014-4h4a4 4 0 014 4v2"/></svg>
-      </div>
-      <h3>Expert Doctor</h3>
-      <p>Qualified BNYS physician with specialised training in spinal and psychological wellness.</p>
-    </div>
-    <div class="why-card">
-      <div class="why-ico-wrap">
-        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-      </div>
-      <h3>Root Cause Focus</h3>
-      <p>We identify and treat the root cause, not just symptoms, for long-lasting results.</p>
-    </div>
-    <div class="why-card">
-      <div class="why-ico-wrap">
-        <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg>
-      </div>
-      <h3>Personalised Care</h3>
-      <p>Every treatment plan is customised for your specific body type and health goals.</p>
-    </div>
+    <div class="why-card"><div class="why-icon">🆓</div><h3>Free Consultation</h3><p>Your first consultation is completely free. No hidden charges. Just expert guidance on your healing path.</p></div>
+    <div class="why-card"><div class="why-icon">🌿</div><h3>No Drugs, No Side Effects</h3><p>Pure naturopathic and Ayurvedic healing methods only. Safe, natural, and effective.</p></div>
+    <div class="why-card"><div class="why-icon">👨‍⚕️</div><h3>Expert BNYS Doctor</h3><p>Qualified physician with 5.5 years specialised training in spinal and psychological wellness.</p></div>
+    <div class="why-card"><div class="why-icon">🎯</div><h3>Root Cause Focus</h3><p>We identify and treat the root cause, not just symptoms, for long-lasting genuine recovery.</p></div>
+    <div class="why-card"><div class="why-icon">👥</div><h3>Male &amp; Female Therapists</h3><p>Both male and female therapists are available so every patient feels comfortable and at ease.</p></div>
+    <div class="why-card"><div class="why-icon">⚡</div><h3>Sports Injury Specialist</h3><p>Experienced in sports injuries, fracture rehabilitation, and performance recovery for active individuals.</p></div>
   </div>
 </section>
 
 <!-- TESTIMONIALS -->
 <section class="test-section">
   <div class="center">
-    <div class="s-label" style="justify-content:center;"><div class="s-label-line" style="background:var(--g400);"></div><span class="s-label-text" style="color:var(--g300);">Patient Stories</span><div class="s-label-line" style="background:var(--g400);"></div></div>
-    <h2 class="s-title" style="color:white;">Words from Our <em style="color:var(--g300);">Patients</em></h2>
+    <div class="sec-label"><div class="sec-label-line"></div><span class="sec-label-text">Patient Stories</span><div class="sec-label-line"></div></div>
+    <h2 class="sec-title">Words from Our <em>Patients</em></h2>
   </div>
   <div class="test-grid">
     <div class="test-card">
-      <div class="test-stars">
-        <svg class="test-star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-        <svg class="test-star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-        <svg class="test-star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-        <svg class="test-star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-        <svg class="test-star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-      </div>
-      <p class="test-text">"I had severe neck pain for years. After just 10 sessions of chiropractic care and Panchakarma at Neck &amp; Spine Clinic, I feel like a completely new person. Dr. Anish is truly gifted."</p>
-      <div class="test-name">Priya Mathew</div>
-      <div class="test-loc">Kottayam</div>
+      <div class="test-stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div>
+      <p class="test-text">"I had severe neck pain for years. After just 10 sessions of chiropractic care and Panchakarma, I feel like a completely new person. The free consultation was a great start — Dr. Anish is truly gifted."</p>
+      <div class="test-name">Priya Mathew</div><div class="test-loc">Kottayam</div>
     </div>
     <div class="test-card">
-      <div class="test-stars">
-        <svg class="test-star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-        <svg class="test-star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-        <svg class="test-star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-        <svg class="test-star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-        <svg class="test-star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-      </div>
-      <p class="test-text">"The cupping therapy and acupuncture sessions completely relieved my chronic back pain. Dr. Anish explains everything patiently and the treatment is very effective."</p>
-      <div class="test-name">Suresh Kumar</div>
-      <div class="test-loc">Kudamaloor</div>
+      <div class="test-stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div>
+      <p class="test-text">"My disc problem was causing unbearable pain. The cupping therapy and acupuncture sessions completely relieved it. No drugs, no side effects — exactly as promised. Dr. Anish explains everything patiently."</p>
+      <div class="test-name">Suresh Kumar</div><div class="test-loc">Kudamaloor</div>
     </div>
     <div class="test-card">
-      <div class="test-stars">
-        <svg class="test-star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-        <svg class="test-star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-        <svg class="test-star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-        <svg class="test-star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-        <svg class="test-star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-      </div>
+      <div class="test-stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div>
       <p class="test-text">"Excellent clinic for yoga and stress relief therapy. Dr. Anish's holistic approach combining physiotherapy with yoga has transformed my health and mental well-being significantly."</p>
-      <div class="test-name">Asha George</div>
-      <div class="test-loc">Changanacherry</div>
+      <div class="test-name">Asha George</div><div class="test-loc">Changanacherry</div>
     </div>
   </div>
 </section>
 
 <!-- BOOK CTA -->
 <section class="book-section" id="book">
-  <div class="book-card">
-    <div class="hex-badge">
-      <svg viewBox="0 0 56 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <polygon points="28,2 54,16 54,48 28,62 2,48 2,16" fill="var(--g50)" stroke="var(--g400)" stroke-width="1.5"/>
-        <rect x="24" y="18" width="8" height="5" rx="1.5" fill="var(--g500)"/>
-        <rect x="24" y="26" width="8" height="5" rx="1.5" fill="var(--g400)"/>
-        <rect x="24" y="34" width="8" height="5" rx="1.5" fill="var(--g300)"/>
-        <line x1="28" y1="17" x2="28" y2="39" stroke="var(--g300)" stroke-width="0.5"/>
-      </svg>
-    </div>
-    <h2 class="s-title">Start Your <em>Healing</em> Journey Today</h2>
-    <p>Chat with us on WhatsApp to book your appointment instantly. Our team will guide you to the right treatment — no waiting, no hassle.</p>
-    <a class="wa-cta" href="https://wa.me/919500538543?text=Hello%20Dr.%20Anish%2C%20I%20would%20like%20to%20book%20an%20appointment%20at%20Neck%20%26%20Spine%20Clinic.%20Please%20let%20me%20know%20the%20available%20slots." target="_blank" rel="noopener">
-      <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-      Book via WhatsApp
+  <div class="book-inner">
+    <h2 class="sec-title">Start Your <em>Healing</em> Journey Today</h2>
+    <div class="book-banner">🎉 &nbsp;First Consultation is Absolutely FREE — No Obligations</div>
+    <p class="book-sub">Chat with us on WhatsApp to book your free appointment instantly. Our team will guide you to the right treatment — no drugs, no side effects, no waiting.</p>
+    <a class="wa-big" href="https://wa.me/919500538543?text=Hello%20Dr.%20Anish%2C%20I%20would%20like%20to%20book%20a%20FREE%20consultation%20at%20Neck%20%26%20Spine%20Clinic.%20Please%20let%20me%20know%20available%20slots." target="_blank" rel="noopener">
+      <span style="font-size:1.2rem;">💬</span> Book FREE Consult via WhatsApp
     </a>
-    <a class="call-link" href="tel:+919500538543">Or call us:+91 9500 538 543</a>
+    <a class="call-link" href="tel:+919500538543">Or call us: +91 9500 538 543</a>
   </div>
 </section>
 
@@ -855,70 +808,62 @@
 <section class="contact-section" id="contact">
   <div class="map-grid">
     <div>
-      <div class="s-label"><div class="s-label-line"></div><span class="s-label-text">Find Us</span></div>
-      <h2 class="s-title">Visit Us in <em>Kudamaloor</em></h2>
+      <div class="sec-label"><div class="sec-label-line"></div><span class="sec-label-text">Find Us</span></div>
+      <h2 class="sec-title">Visit Us in <em>Kudamaloor</em></h2>
       <div class="contact-list">
         <div class="contact-row">
-          <div class="contact-ico-box">
-            <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-          </div>
+          <div class="c-ico">📍</div>
           <div><div class="c-label">Address</div><div class="c-val">School Junction, Kudamaloor, Kottayam, Kerala</div></div>
         </div>
         <div class="contact-row">
-          <div class="contact-ico-box">
-            <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 11.05a19.79 19.79 0 01-3.07-8.67A2 2 0 012 .18h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 14z"/></svg>
-          </div>
-          <div><div class="c-label">Phone</div><div class="c-val"><a href="tel:+919500538543">+91 9500 538 543</a></div></div>
+          <div class="c-ico">📞</div>
+          <div><div class="c-label">Phone (For Appointment)</div><div class="c-val"><a href="tel:+919500538543">+91 9500 538 543</a></div></div>
         </div>
         <div class="contact-row">
-          <div class="contact-ico-box">
-            <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-          </div>
+          <div class="c-ico">✉️</div>
           <div><div class="c-label">Email</div><div class="c-val"><a href="mailto:neckandspineclinic@gmail.com">neckandspineclinic@gmail.com</a></div></div>
         </div>
         <div class="contact-row">
-          <div class="contact-ico-box">
-            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-          </div>
+          <div class="c-ico">⏰</div>
           <div><div class="c-label">Hours</div><div class="c-val">Monday – Saturday: 8:00 AM – 8:00 PM</div></div>
         </div>
       </div>
       <a class="dir-btn" href="https://maps.app.goo.gl/hAiuWW7sWdMVzd2G9" target="_blank" rel="noopener">
-        <svg viewBox="0 0 24 24"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg>
-        Get Directions
+        📍 Get Directions
       </a>
     </div>
     <div class="map-embed">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3933.5!2d76.52!3d9.58!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zOcKwMzQnNDkuOCJOIDc2wrAzMScxMi4wIkU!5e0!3m2!1sen!2sin!4v1" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Neck and Spine Clinic Location - Kudamaloor, Kottayam"></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3933.5!2d76.52!3d9.58!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zOcKwMzQnNDkuOCJOIDc2wrAzMScxMi4wIkU!5e0!3m2!1sen!2sin!4v1" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Neck and Spine Clinic Location"></iframe>
     </div>
   </div>
 </section>
 
 <!-- FOOTER -->
 <footer>
-  <div class="foot-brand">
-    <img src="neckspine.png" alt="Logo" />
-    <div>
-      <div class="foot-name">Neck &amp; Spine Clinic</div>
-      <div style="font-size:0.68rem;color:rgba(255,255,255,0.35);margin-top:2px;">School Junction, Kudamaloor, Kottayam</div>
-    </div>
+  <div>
+    <div class="foot-logo">Neck &amp; Spine Clinic</div>
+    <div class="foot-sub">School Junction, Kudamaloor, Kottayam · Free Consultation</div>
   </div>
   <div class="foot-links">
-    <a href="#services">Services</a>
     <a href="#about">About</a>
+    <a href="#conditions">Conditions</a>
+    <a href="#services">Services</a>
     <a href="#contact">Contact</a>
   </div>
-  <div class="foot-copy">© 2025 Neck &amp; Spine Clinic · All rights reserved</div>
+  <div class="foot-copy">© 2025 Neck &amp; Spine Clinic · No Drugs · No Side Effects</div>
 </footer>
 
 <!-- FLOATING WA -->
-<a class="float-wa" href="https://wa.me/919500538543?text=Hello%20Dr.%20Anish%2C%20I%20would%20like%20to%20book%20an%20appointment%20at%20Neck%20%26%20Spine%20Clinic." target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
-  <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+<a class="float-wa" href="https://wa.me/919500538543?text=Hello%20Dr.%20Anish%2C%20I%20would%20like%20to%20book%20a%20FREE%20consultation." target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 24 24" width="26" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
 </a>
 
 <script>
   function toggleMenu() {
     document.getElementById('mobileMenu').classList.toggle('open');
+  }
+  function closeMenu() {
+    document.getElementById('mobileMenu').classList.remove('open');
   }
   document.addEventListener('click', function(e) {
     const menu = document.getElementById('mobileMenu');
